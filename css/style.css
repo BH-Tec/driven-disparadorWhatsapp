@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+
+  background: url(../assets/bg.webp);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  background-color: #daf7c1;
+  width: 30rem;
+  margin: .8rem;
+  padding: .8rem 1.8rem;
+
+  border-radius: 1.4rem;
+  box-shadow: .2rem .2rem rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div:hover {
+  box-shadow: .4rem .4rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+}
